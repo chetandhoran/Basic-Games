@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #548687;
+  background-color: black;
   text-align: center;
 }
 
@@ -15,8 +15,9 @@ body {
   align-items: center;
 }
 h1{
-  padding-top: 50px;
-  color: brown;
+  font-size: 50px;
+  padding-top: 40px;
+  color:yellowgreen;
 }
 .game {
   height: 60vmin;
@@ -25,7 +26,7 @@ h1{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 1.5vmin;
+  gap: 3vmin;
 }
 
 .box {
@@ -35,30 +36,31 @@ h1{
   border: none;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
   font-size: 8vmin;
-  color: #b0413e;
-  background-color: #ffffc7;
+  color:tomato;
+  background-color: whitesmoke;
 }
 
 #reset-btn {
   padding: 1rem;
   font-size: 1.25rem;
-  background-color: #191913;
+  background-color:navy;
   color: #fff;
   border-radius: 1rem;
   border: none;
 }
 
 #new-btn {
-  padding: 1rem;
+  padding: 1.5rem;
   font-size: 1.25rem;
-  background-color: #191913;
-  color: #fff;
+  font-weight: 700;
+  background-color:yellow;
+  color: green;
   border-radius: 1rem;
   border: none;
 }
 
 #msg {
-  color: #ffffc7;
+  color: white;
   font-size: 5vmin;
 }
 
